@@ -10,14 +10,13 @@
     color: #111;
   }
   
-  /* CONTAINER */
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
   
-  /* HEADER */
+
   .header {
     background: #fff;
     padding: 20px 0;
@@ -63,8 +62,7 @@
     cursor: pointer;
     font-size: 18px;
   }
-  
-  /* HERO */
+ 
   .hero {
     display: flex;
     justify-content: space-between;
@@ -124,7 +122,6 @@
     border-radius: 16px;
   }
   
-  /* BEST SELLING */
   .best-header h3 {
     font-size: 28px;
     margin-bottom: 10px;
@@ -147,8 +144,7 @@
   .best-header .btn:hover {
     transform: scale(1.05);
   }
-  
-  /* CARDS */
+
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -170,7 +166,7 @@
   margin-bottom: 10px;
 }
 
-/* ANIMATION */
+
 .fade {
   opacity: 0;
   transform: translateY(30px);
@@ -188,7 +184,7 @@
   }
 }
 
-/* MEDIA */
+
 @media (max-width: 1024px) {
   .hero {
     flex-direction: column;
